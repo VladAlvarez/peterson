@@ -1,0 +1,177 @@
+body {
+    margin: 0px
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.hero {
+    height: 100vh;
+    background-image: url('lake.jpg');         
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: white; 
+    text-align: center; 
+    font-family: "Verdana", "Helvetica", sans-serif;
+    font-weight: light
+}
+.hero-container {
+    width: 100vw
+}
+.hero-bottom {
+    margin-top: 30vh
+}
+.hero h1 {
+    margin-bottom: 15vw;
+    font-size: 4rem;
+    background-color: rgba(56, 61, 59, 0.7);
+    min-width: 100vw;
+    padding: 10px 0px
+}
+.hero h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 9vh
+}
+.hero a {
+    background-color: #383d3b;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 1.5rem
+}
+.hero a:hover {
+    background-color: #7c7c7c
+}
+.big {
+    transition: transform 0.3s ease; 
+}
+.big:hover {
+    transform: scale(1.1);
+}
+@media screen and (max-width: 800px) {
+    .hero h1 {
+      font-size: 2.5rem
+    }
+    .hero h2 {
+        font-size: 1.4rem;
+        margin-top:
+    }
+    .hero a {
+        font-size: 1rem
+    }
+  }
+
+
+.teletherapy, .footer {
+    background-color: #5DA9E9;
+    padding: 2rem 6rem;
+    margin: 2rem 0rem
+}
+
+.supervision-contact {
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.supervision-container {
+    padding: 0rem 6rem;
+}
+
+.contact-container {
+    background-color: #E9C384;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px; 
+    padding: 10px 6rem 10px 30px;
+    
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+i {
+    margin-right: 10px
+}
+
+.insurance {
+    margin: 2rem 5rem
+}
+
+.insurance-container {
+    padding: 1rem;
+    border-radius: 15px;
+    border: 2px solid #E9C384
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 6rem;
+}
+
+.team-card {
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.team-card img {
+    padding-top: 15px;
+    width: ;
+    height: auto;
+}
+
+.team-card h4, .team-card h5 {
+    margin: 10px 0;
+}
+
+.team-card p {
+    padding: 0 15px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.team-card a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.team-card a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0
+}
+
+.footer-contact-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-contact-container a {
+    padding: 0px 10px
+}
+
+.design-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
