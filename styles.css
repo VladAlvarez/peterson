@@ -8,10 +8,24 @@ a {
     color: inherit;
 }
 h3 {
-    font-size: 2.5rem
+    font-size: 2.5rem;
 }
 p {
-    font-size: 1.5rem
+    font-size: 1.5rem;
+}
+li {
+    font-size: 1.3rem;
+}
+@media screen and (max-width:800px) {
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    li {
+        font-size: 1rem;
+    }
 }
 
 
@@ -58,7 +72,7 @@ p {
     font-size: 1.5rem
 }
 .hero a:hover {
-    background-color: #7c7c7c
+    background-color: #3498db
 }
 .big {
     transition: transform 0.3s ease; 
@@ -141,80 +155,109 @@ i {
     .contact-container {
         border-radius: 0px
     }
+    .contact-container h3 {
+        font-size: 1.5rem;
+    }
+    .icon-text p {
+        font-size: 1rem
+    }
+    .icon-text i {
+        font-size: 1.5rem
+    }
 }
+
 
 .insurance {
-    margin: 2rem 5rem
+    margin: 2rem 10vw
 }
-
 .insurance-container {
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 15px;
     border: 2px solid #E9C384
+}
+.insurance-container h3 {
+    margin: 0px
 }
 
 .team {
     display: flex;
-    justify-content: center;
-    margin: 2rem 6rem;
+    justify-content: space-around;
+    margin: 0px 10vw;
+    flex-wrap: wrap;
+    
 }
-
 .team-card {
-    max-width: 400px;
+    max-width: 450px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     background-color: #fff;
     text-align: center;
-    font-family: Arial, sans-serif;
+    padding: 15px
 }
-
-.team-card img {
-    padding-top: 15px;
-    width: ;
-    height: auto;
+.team-card-container img {
+    margin-top: 15px;
+    width: 85%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
 }
-
-.team-card h4, .team-card h5 {
-    margin: 10px 0;
+@media screen and (max-width: 800px) {
+    .team-card-container img {
+        height: 100%;
+        width: 100%;
+    }
 }
-
+.team-card h4 {
+    font-size: 2.4rem;
+    margin: 10px 0px 0px 0px;
+}
+.team-card h5 {
+    font-size: 1.2rem;
+    margin: 5px 0px 15px 0px;
+    color: #5DA9E9;
+}
 .team-card p {
     padding: 0 15px;
     margin: 10px 0;
     text-align: left;
 }
-
 .team-card a {
     color: #3498db;
     text-decoration: none;
 }
-
 .team-card a:hover {
     text-decoration: underline;
 }
 
 .footer {
+    font-family: "Verdana", "Helvetica", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 0
 }
-
 .footer-contact-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-
 .footer-contact-container a {
     padding: 0px 10px
+}
+@media screen and (max-width: 800px) {
+    .footer-contact-container {
+        justify-content: start;
+    }
 }
 
 .design-footer {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+}
+.design-footer p {
+    font-size: .8rem
 }
